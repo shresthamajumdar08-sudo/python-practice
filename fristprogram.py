@@ -55,3 +55,70 @@ if marks>50:
     print("pass")
 else:
     print (False)
+marks=75
+if marks>=80:
+    print("Grade A")
+elif marks>=40: 
+    print("Grade B")
+else:
+    print("Grade C")
+marks=45
+if marks>=45:
+    print("pass")
+else:
+    print("fail")
+num=10
+if num % 2 == 0:
+    print("even")
+else:
+    print("odd")
+
+num=15
+if num % 2==0:
+    print("even")
+else :
+    print("odd")
+
+# check pass fail
+marks = 50
+if marks >=50:
+    print("pass")
+else:
+    print("fail")
+
+# check even or odd number
+num= 3
+if num % 2 == 0:
+    print("even")
+else:
+    print("odd")
+
+# Write a program to check whether a person is Adult or Minor.
+age=20
+if age>= 20:
+    print ("Adult")
+else:
+    print("Minor")
+
+# check the biggest number.
+a = 10
+b= 15
+c = 20
+if a<b<c:
+    print ("c is biggest number")
+elif a>b>c:
+    print("a is biggest number")
+else :
+    print("b is the biggest number")
+
+
+if a>b and a>c:
+    print("a is bigger number")
+elif a<b and c<b:
+    print("b is bigger number")
+else :
+    print("c is the biggeer number")
+
+
+
+ 
