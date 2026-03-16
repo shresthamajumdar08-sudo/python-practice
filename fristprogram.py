@@ -1,3 +1,4 @@
+
 print("shrestha")
 name = "shrestha " 
 age  = 20
@@ -119,6 +120,10 @@ elif a<b and c<b:
 else :
     print("c is the biggeer number")
 
+num=20
+if num>=120:
+    print("in valid")
+else:
+    print("valid")
+print("this is new code line")
 
-
- 
