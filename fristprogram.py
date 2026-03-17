@@ -126,4 +126,12 @@ if num>=120:
 else:
     print("valid")
 print("this is new code line")
-
+a = 10
+b= 15
+c = 20
+if a<b<c:
+    print ("c is biggest number")
+elif a>b>c:
+    print("a is biggest number")
+else :
+    print("b is the biggest number")
