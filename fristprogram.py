@@ -135,3 +135,120 @@ elif a>b>c:
     print("a is biggest number")
 else :
     print("b is the biggest number")
+
+# 17/03/2026
+
+#even or odd
+num=12
+if num %2 == 0 :
+    print("even")
+else:
+    print("odd")
+# pass or fail
+marks= 40
+if marks>=30:
+    print("pass")
+else:
+    print("fail")
+# positive negative zero..................
+num =10
+if num>0:
+    print("positive")
+else:
+    print("negative")
+# grade
+marks=75
+if marks>=90:
+    print("grade a")
+elif marks>=60:
+    print("grade b")
+elif marks>=40:
+    print("grade c")
+else:
+    print("fail")
+#voting eligibility
+age= 20
+if age>=18:
+    print("eligibility for vote")
+else:
+    print("not eligible")
+#largest number
+num1=5
+num2= 12
+num3= 7
+if num1>num2 and num1>num3:
+    print("num1 is greatest number")
+elif num2>num1 and num2>num3:
+    print("num2 is grearest number")
+else:
+    print("number 3 is greatest number")
+age=int(input("enter age: "))
+print(age)
+name=input("enter your name: ")
+name=input("enter your name: ")
+print("hello shrestha")
+Username ="Admin"
+Password= "1234"
+user=input("Enter Username: ")
+passwd= input("Enter Password: ")
+if user==Username and passwd==Password:
+    print("logic successful")
+else:
+    print("invalid login")
+
+marks=90
+income= 1000000
+if marks>=85 and income<500000:
+    print("scholarship approved")
+elif marks>=70 and income<3000000:
+    print("partial scholarship")
+else:
+    print("no schlorship")
+
+
+temp=40
+if temp<10:
+    print("very cold")
+elif temp<25:
+    print("normal weather")
+elif temp<35:
+    print("warm")
+else:
+    print("very hot")
+
+num=15
+if num % 3==0:
+    print("fizz")
+elif num % 5==0:
+    print("buzz")
+elif num % 3 ==0 and num % 5 ==0:
+    print("fizzbuzz") 
+
+# Find the largest of two number
+
+num1=200
+num2=800
+if num1>num2:
+    print("num1 is largest number")
+else:
+    print("num2 is largest number")
+
+# check student Pass or fail
+
+marks=50
+if marks>=40:
+    print("Pass")
+else:
+    print("Fail")
+
+# Assign Greade based on Marks 
+
+marks=70
+if marks>90:
+    print("Grade A")
+elif marks>60:
+    print("Grade B")
+elif marks>40:
+    print("Grade c")
+else:
+    print("Fail")
