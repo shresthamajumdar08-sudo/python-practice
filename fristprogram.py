@@ -292,3 +292,66 @@ elif marks>= 40:
     print("grade C")
 else:
     print("grade c")
+
+
+#  4. Take three numbers and print the smallest number.......................
+num1=20
+num2=30
+num3= 10
+if num1>num2 and num1>num3:
+    print("num1 is smallest number.")
+elif num2>num1 and num2<num3:
+    print("num2 is smallest number. ")
+else:
+    print("num3 is smallest number.")
+
+#  7. Take age as input and print:......................
+age= int(input("Write youe Age : "))
+if age >= 60:
+    print("Senior Citizen")
+elif age>= 20:
+    print("Adult")
+elif age>= 13:
+    print(" Teenager")
+else:
+    print("child")
+ 
+ # 9. Take a string name and check:
+name= input("Write the Name :")
+if name== "Admin":
+    print("Welcome Admin")
+else:
+    print("Access Denied")
+
+# 11. Take temperature as input and print:
+
+temp =int(input("Write the Temperature :  "))
+if temp>=35:
+    print(" Hot")
+elif temp>=20:
+    print("Warm")
+else:
+    print("cold")
+
+ # 12. Take a password string.
+
+password = input("Write the correct Password :  ")
+if password== "python123":
+    print(" Login Successful")
+else:
+    print(" Wrong Password")
+
+
+
+
+# 15. Take a username.
+
+username1 = input("write usename : ")
+username2 = input ("write username : ")
+if username1 ==  "student":
+    print(" Welcome Student")
+elif username2 == "Teacher":
+    print("welcome Teacher")
+else:
+    print("Unknown User")
+
